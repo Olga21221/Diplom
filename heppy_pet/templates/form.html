@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="{% static 'form_style.css'%}" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+      <div class="content">
+
+        <!-- Правая колонка: сама форма -->
+        <div class="right-side">
+
+          <!-- Заголовок для формы -->
+          <div class="topic-text">Оставьте ваш номер, мы вам перезвоним</div>
+        
+          <!-- Форма обратной связи -->
+          <form action="#">
+
+            <!-- Каждый input для выравнивания вкладываем в блок input-box -->
+            <div class="input-box">
+              <input type="text" placeholder="Ваше имя" />
+            </div>
+            <div class="input-box">
+              <input type="text" placeholder="Введите email" />
+            </div>
+            <div class="input-box">
+              <input type="text" placeholder="Введите телефон" />
+            </div>
+            <div class="input-box message-box">
+              <textarea placeholder="Сообщение"></textarea>
+            </div>
+            <div class="button">
+              <input type="button" value="Отправить" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div> 
+  </body>
+  </html>

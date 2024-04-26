@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(70deg, rgb(227, 187, 111), rgb(243, 171,33));
+}
+
+.logo_1{
+    width: 80px;
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+
+.logo_2 {
+    width: 45px;
+    position: relative;
+    left: 133px;
+    top: 27px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+li {
+    display: inline;
+    margin-right: 130px;
+}
+
+li:last-child {
+    margin-right: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+.map_tag {
+    position: relative;
+    text-align: center;
+}
+.contacts {
+    text-align: center;
+}

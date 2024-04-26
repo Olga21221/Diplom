@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(70deg, rgb(227, 187, 111), rgb(243, 171,33));
+}
+.logo_1{
+    width: 80px;
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+
+.logo_2 {
+    width: 45px;
+    position: relative;
+    left: 133px;
+    top: 27px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+li {
+    display: inline;
+    margin-right: 130px;
+}
+
+li:last-child {
+    margin-right: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+
+.text {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+} 
+
+.section_dog{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.dog_1_img {
+    width: 300px;
+    margin-right: 100px;
+}
+
+.dog_2_img {
+    width: 300px;
+    margin-right: 100px;
+}
+
+.dog_3_img{
+    width: 300px;
+}
+.section_dog_text{
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+    margin-top: 0px;
+    font-size: 19px;
+}
+.section_dog_text_li {
+    display: inline;
+    margin-right: 350px;
+}

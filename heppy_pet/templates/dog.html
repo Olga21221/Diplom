@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Собаки</title>
+    <link type="text/css" href="{% static 'style_dog.css'%}" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="logo_div">
+            <img class="logo_1" src='img/logo_1.png' alt="">
+            <img class="logo_2" src="img/logo_2.png" alt="">
+        <ul>
+            <li><a href="help/">Как помочь</a></li>
+            <li><a href="#">Кошки</a></li>
+            <li><a href="dog/">Собаки</a></li>
+            <li><a href="#">Где нас найти</a></li>
+        </ul>
+    </div>
+    </nav>
+    <main>
+        <p class="text">Наши подопечные</p>
+        <section>
+            <div class="section_dog">
+            <img class="dog_1_img" src="{% static 'img/dog_1.jpeg'%}" alt="Картинка собаки">
+            <img class="dog_2_img" src="img/dog_2.jpg" alt="Картинка собаки">
+            <img class="dog_3_img" src="img/dog_3.jpg" alt="Картинка собаки">
+            </div>
+            <div>
+                <ul class="section_dog_text">
+                    <li class="section_dog_text_li"><a href="dog_Richard.html">Ричард</a></li>
+                    <li class="section_dog_text_li" ><a href="dog_Betty.html">Бетти</a></li>
+                    <li class="section_dog_text_li" ><a href="dog_Sawyer.html">Сойер</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

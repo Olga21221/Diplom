@@ -1,0 +1,14 @@
+div {
+    text-align: center;
+    width: 900px;
+    margin-left: 320px;
+    margin-top: 120px;
+}
+.text {
+    font-size: 20px;
+    line-height: 30px;
+}
+.back {
+    text-decoration: none;
+    color: black;
+}
